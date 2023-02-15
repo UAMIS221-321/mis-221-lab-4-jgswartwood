@@ -36,7 +36,7 @@ static void GetFull(){
     for (int i = 1; i <= num + 3; i++){
                 for (int k = 1; k <= i; k++)
                 {
-                    Console.Write("0");
+                    Console.Write("O");
                     Console.Write(" ");
                 }
                 Console.WriteLine();
@@ -60,7 +60,7 @@ static void GetPartial(){
                         Console.Write(" ");
                     }
                     else{
-                    Console.Write("0");
+                    Console.Write("O");
                     Console.Write(" ");
                     }
                 }
